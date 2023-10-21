@@ -9,7 +9,6 @@ class node{
 			data=0;
 			next=NULL;
 		}
-	
 }; 
 main(){
 	node* head;
