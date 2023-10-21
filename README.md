@@ -14,15 +14,39 @@ Algorithm -
 
 **B. Access data by loop -**  Updated version of previous code with a loop used for displaying the elements.
 Algorithm -
-1.Create a class node with data and a pointer to the next node.
-2.Inside the node class constructor, initialize the data to 0 and next to NULL.
-3.In the main function:
-  a. Declare a pointer head for the linked list.
-  b. Create the first node, newnode1, set its data to 10, and assign it to head.
-  c. Create newnode2, newnode3, and newnode4, and set their data values.
-  d. Link the nodes together by setting the next pointers.
-  e. Print the data, self-address, and next address for each node individually.
-  f. Use a while loop to traverse the linked list and print the same information for each node.
+Algorithm for Creating a Singly Linked List and Displaying Its Properties:
+
+1. Define a class named 'node' to represent a node in a singly linked list:
+   a. Declare public member variables: 'data' (to store the node's data) and 'next' (a pointer to the next node).
+   b. Create a constructor to initialize 'data' to 0 and 'next' to NULL.
+
+2. In the 'main()' function:
+   a. Declare a pointer variable 'head' to represent the head of the linked list.
+
+3. Create several 'node' objects and set their 'data' values:
+   a. Create 'newnode1' and set its 'data' to 10.
+   b. Create 'newnode2' and set its 'data' to 20.
+   c. Create 'newnode3' and set its 'data' to 30.
+   d. Create 'newnode4' and set its 'data' to 40.
+
+4. Link the nodes together to form a singly linked list:
+   a. Set 'newnode1->next' to 'newnode2'.
+   b. Set 'newnode2->next' to 'newnode3'.
+   c. Set 'newnode3->next' to 'newnode4'.
+
+5. Display the data, self-address, and next-address for each node:
+   a. Print the 'data' value for each node.
+   b. Print the self-address and next-address for each node.
+
+6. Create a 'temp' pointer and initialize it to 'head'.
+
+7. Use a 'while' loop to traverse the linked list:
+   a. While 'temp' is not NULL:
+      i. Print the 'data' value for the current node.
+      ii. Print the self-address and next-address for the current node.
+      iii. Update 'temp' to 'temp->next' to move to the next node.
+
+8. End of the program.
 
 
   **C.Adder function -** Uses functions to add elments at the nd of the list and display them.
