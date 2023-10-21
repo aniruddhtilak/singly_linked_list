@@ -1,5 +1,7 @@
 # singly_linked_list
 Basic Codes explaining concepts of linked lists
+
+
 **A. Basics -** Basic code on singly-linked list
 Algorithm - 
 1. Create a class 'node' with data and a pointer to the next node.
